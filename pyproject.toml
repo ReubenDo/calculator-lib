@@ -1,0 +1,21 @@
+[project]
+name = "calculator"
+version = "0.1.0"
+description = "Python library for tutorial"
+authors = [
+    {name = "reubendo",email = "dorent@live.fr"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+packages = [
+    { include = "calculator", from = "src" },
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy (>=2.0.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
